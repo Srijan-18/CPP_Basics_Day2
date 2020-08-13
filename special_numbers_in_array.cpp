@@ -3,13 +3,13 @@ using namespace std;
 
 int main (int argsc, char* args[]) {
 	if( argsc != 3 ){
-		cout << "Prameters quantity mismatch" << endl;
+		cout << "Parameters quantity mismatch" << endl;
 		return 0;
 	}
 	int start =atoi(args[1]);
 	int end = atoi(args[2]);
 	if (start < 0 || start >= 100 || end < start || end >100) {
-		cout << "Inavlid Range" << endl;
+		cout << "Invalid Range" << endl;
 		return 0;	
 	}
 	int counter;
